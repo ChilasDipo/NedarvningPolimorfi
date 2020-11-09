@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class Apple extends Frugt {
 
-    String sort = "Golden Delicious";
+    AppleSort sort;
     String type = "spiseæble";
     boolean moden = false;
 

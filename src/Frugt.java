@@ -7,7 +7,9 @@
 
 public class Frugt extends Varer {
 
-    void coolDown() {
-        System.out.println("Æblerne køles ned.");
+    boolean moden;
+
+    void coolDown(String name) {
+        System.out.println(name +" køles ned.");
     }
 }
