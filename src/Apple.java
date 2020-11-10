@@ -7,7 +7,7 @@ import java.util.Date;
  * 09/11/2020
  */
 
-public class Apple extends Frugt {
+public class Apple extends Frugt {  // Indenholder alle ting fra Frugt som eksempel moden variable
 
     AppleSort sort;
     String type = "spiseæble";

@@ -12,12 +12,12 @@ public class Main {
     public static void main(String[] args) {
 
         Apple a = new Apple();
-        a.stykpris = 2;
-        a.holdbarhed = new Date(1608768000);
+        a.stykpris = 2;             // sætter stykprisen for objektet a
+        a.holdbarhed = new Date(1608768000);  // setter holdbarheden til en dato i unix time
         a.smidUd();
         a.moden = true;
-        a.coolDown("Apple");
-        a.sort = AppleSort.GoldenDelicious;
+        a.coolDown("Apple");            // calling metod
+        a.sort = AppleSort.GoldenDelicious;         // sætter min varialbe lige en sort
         System.out.println(a.amountinstorages);
         a.sale(4);
         System.out.println(a.amountinstorages);

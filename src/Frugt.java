@@ -5,7 +5,7 @@
  * 09/11/2020
  */
 
-public class Frugt extends Varer {
+public class Frugt extends Varer {  // lærere alt fra Varer som variable amountinstorages og funktion som smidud
 
     boolean moden;
 
