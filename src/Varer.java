@@ -7,7 +7,7 @@ import java.util.Date;
  * 09/11/2020
  */
 
-public class Varer {
+public class Varer extends Lager {
 
     double omsætningprvarer;
     double stykpris;

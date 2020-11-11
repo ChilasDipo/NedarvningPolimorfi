@@ -25,6 +25,7 @@ public class Main {
         a.sale(4);
         System.out.println(a.amountinstorages);
 
+
         Peas p = new Peas();
         p.stykpris = 0.1;
         p.holdbarhed = new Date(1608768000);
@@ -35,6 +36,23 @@ public class Main {
         b.stykpris = 1.0;
         b.holdbarhed= new Date(1608768000);
         b.moden = true;
+        a.antalX(b);
+
+
+
+
+        a.fyldOp(a);
+        a.fyldOp(a);
+        a.fyldOp(a);
+        a.fyldOp(b);
+        a.fyldOp(p);
+        a.fyldOp(b);
+        a.antalX(b);
+        a.antalalt();
+        a.printlager();
+
+
     }
+
 
 }
