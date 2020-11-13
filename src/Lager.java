@@ -38,10 +38,15 @@ public class Lager {
       //  File file = new File("C:\Users\Chila\Desktop\test");
       //  File file = new File("C:\\Users\\Chila\\filename.txt");
         try {
-            PrintWriter write = new PrintWriter("Test.txt");
-            int b = lagerStatus.size();
-            write.write();
-            write.close();
+            java.io.File file = new java.io.File("varer.txt");
+            // Create a file
+            java.io.PrintWriter output = new java.io.PrintWriter(file);
+
+            for (int i = 0; i <lagerStatus.size() ; i++) {
+                output.write(lagerStatus.get(i).toString());
+            }
+
+            output.close();
             System.out.println("sometinhg happed file ");
         } catch (IOException e) {
             e.printStackTrace();
